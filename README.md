@@ -1,4 +1,3 @@
-# projects-Abul-Siddiqui
 Welcome to the "Memory Game"
 Test your memory skills and gain confidence in your ability to match cards with limited guesses. You can try again and play the game to win.
 
