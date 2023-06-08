@@ -4,13 +4,17 @@ Test your memory skills and gain confidence in your ability to match cards with 
 
 ## Instructions
 
-Click on the Cards on the game board to reveal the number.
+Click on the Cards on the game board to reveal the number
 
-Remember the card and its position.
+Remember the card and its position
 
-The unmatched cards turn light blue for you to remember that they were previously selected.
+The unmatched cards turn light blue for you to remember that they were previously selected
 
-Click on the Cards on the game board to reveal the number and remember the card to match them with the same number. The cards selected turn light blue for you to remember that they were not matched and clicked before
+Click on the Cards on the game board to reveal the number and remember the card to match them with the same number
+
+The cards selected turn light blue for you to remember that they were not matched and clicked before
+
+Player gets 10 wrong Guesses no penalty for guessing right 
 
 Play the game again and again to achieve awesomeness!!
 
