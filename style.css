@@ -1,49 +1,99 @@
+tittle {
+  
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  text-decoration:wavy;
+  font-size: x-large;
+ }
+
+ body {
+
+  background-color: mistyrose;
+ }
 .game-board {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f0f0f0;
-  }
-  
-  .card {
-    width: 80px;
-    height: 80px;
-    margin: 10px;
-    background-color: lightblue;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  .selected {
-    background-color: white;
-  }
-  
-  .matched {
-    background-color: lightgreen;
-    cursor: default;
-  }
-  
-  .status-bar {
-    text-align: center;
-    margin-top: 20px;
-    font-weight: bold;
-  }
-  
-  .restart-btn {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #4caf50;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.card {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  background-color: lightblue;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: white;
+}
+
+.matched {
+  background-color: lightgreen;
+  cursor: default;
+}
+
+.status-bar {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.restart-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  width: 200px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: center;
+}
+
+.modal-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,7 +1,7 @@
-const cardValues = [1, 2, 3, 4, 1, 2, 3, 4];
+const cardValues = [1, 2, 3, 4,5,1, 2, 3, 4,5,1, 2, 3, 4,5,1, 2, 3, 4,5];
 
 // Set maximum number of guesses
-const maxGuesses = 5;
+const maxGuesses = 10;
 
 // Variables to track game state
 let selectedCards = [];
