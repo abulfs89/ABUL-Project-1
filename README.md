@@ -2,7 +2,11 @@
 
 Test your memory skills and gain confidence in your ability to match cards with limited guesses. You can try again and play the game to win.
 
-Click on the Cards on the game board to reveal the number and remember the card to match them with the same number. The cards selected turn light blue for you to remember that they were not matched and clicked before
+Click on the Cards on the game board to reveal the number.
+
+Remember the card and its position.
+
+The unmatched cards  turn light blue for you to remember that they were previously selected.
 
 Play the Game  https://memorygame89.netlify.app/
 
