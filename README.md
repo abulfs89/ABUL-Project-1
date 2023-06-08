@@ -17,5 +17,7 @@ Click on the Cards on the game board to reveal the number and remember the card 
 
 ![Screenshot 2023-06-08 at 11 52 08 AM](https://github.com/abulfs89/ABUL-Project-1/assets/132204123/0c56bae5-4989-4f0b-827d-7d4acc41d999)
 
-Play the Game and achieve awesomeness!!
+## Technologies used
+HTML CSS and JavaScript
+
 
