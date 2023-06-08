@@ -1,0 +1,49 @@
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .card {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: white;
+  }
+  
+  .matched {
+    background-color: lightgreen;
+    cursor: default;
+  }
+  
+  .status-bar {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .restart-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-board" id="cardDeck"></div>
+  <div class="status-bar" id="guesses">Guesses: 0</div>
+  <div class="status-bar" id="game-status"></div>
+  <a class="restart-btn" id="restart-btn">Restart</a>
+
+  <!-- Modal for out of guesses -->
+  <div class="modal" id="out-of-guesses-modal">
+    <div class="modal-content">
+      <h2>Out of Guesses</h2>
+      <p>Try again!</p>
+      <a class="modal-btn" id="out-of-guesses-btn">Restart</a>
+    </div>
+  </div>
+
+  <!-- Modal for game won -->
+  <div class="modal" id="game-won-modal">
+    <div class="modal-content">
+      <h2>Congratulations!</h2>
+      <p>You have a great memory!</p>
+      <a class="modal-btn" id="game-won-btn">Play Again</a>
+    </div>
+  </div>
+  
+
+
+    <script defer src="script.js"></script>
+</body>
+</html>
