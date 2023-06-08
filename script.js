@@ -77,7 +77,7 @@ function createCard(value) {
   card.classList.add('card');
   card.textContent = value;
   card.setAttribute('data-number', value);
-  card.style.backgroundColor = 'red';
+  card.style.backgroundColor = 'black';
   card.style.color = 'red';
 
   card.addEventListener('click', () => {
