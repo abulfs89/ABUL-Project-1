@@ -76,9 +76,9 @@ function createCard(value) {
   const card = document.createElement('div');
   card.classList.add('card');
   card.textContent = value;
-  card.setAttribute('data-number', value);
-  card.style.backgroundColor = 'black';
-  
+  card.setAttribute('number', value);
+  card.style.backgroundColor = 'red';
+  card.style.color = 'red';
 
   card.addEventListener('click', () => {
     handleCardClick(card);
@@ -91,14 +91,14 @@ function createCard(value) {
 function handleCardClick(card) {
   if (!card.classList.contains('matched') && selectedCards.length < 2) {
     card.style.backgroundColor = 'white';
-    card.textContent = card.getAttribute('data-number');
+    card.textContent = card.getAttribute('number');
     card.classList.add('selected');
     selectedCards.push(card);
 
     if (selectedCards.length === 2) {
       const [card1, card2] = selectedCards;
 
-      if (card1.getAttribute('data-number') === card2.getAttribute('data-number')) {
+      if (card1.getAttribute('number') === card2.getAttribute('number')) {
   card1.classList.add('matched');
   card2.classList.add('matched');
   selectedCards = [];
