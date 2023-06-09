@@ -12,9 +12,9 @@ The unmatched cards turn light blue for you to remember that they were previousl
 
 Click on the Cards on the game board to reveal the number and remember the card to match them with the same number
 
-The cards selected turn light blue for you to remember that they were not matched and clicked before
+The cards selected turn light blue for you to remember that they have been selected 
 
-Player gets 10 wrong Guesses no penalty for guessing right 
+Player gets 10 chances to guess wrong and no penalty for a corect match
 
 Play the game again and again to achieve awesomeness!!
 
