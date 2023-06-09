@@ -14,7 +14,7 @@ Click on the Cards on the game board to reveal the number and remember the card 
 
 The cards selected turn light blue for you to remember that they have been selected 
 
-Player gets 10 chances to guess wrong and no penalty for a corect match
+Player gets 10 chances to guess wrong and no penalty for a correct match
 
 Play the game again and again to achieve awesomeness!!
 
