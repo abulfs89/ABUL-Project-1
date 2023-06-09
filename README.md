@@ -28,7 +28,9 @@ HTML CSS and JavaScript
 
 ## Next Steps
 Add 2 player mode.
+
 Add levels Easy, Medium & Hard.
+
 Add CSS features to make the game interactive.
 
 
